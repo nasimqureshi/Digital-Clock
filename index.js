@@ -13,15 +13,23 @@ function updateclock(){
     let ampm = "AM"
 
     if(h > 12){
-        h = h - 12
-        ampm = "PM"
+        h = h - 12;
+        ampm = "PM";
     }
+    
+    
     hourEI.innerText = h;
     minutesEI.innerText = m;
     secondsEI.innerText = s;
     ampmEI, (innerText = ampm);
+
+   
+    setTimeout(() => {
+        updateclock()
+    }, 10)
     
 }
+
 updateclock();
 
 
