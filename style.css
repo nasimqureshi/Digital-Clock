@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://cdn.pixabay.com/photo/2020/01/04/18/40/trees-4741364__340.png")
+    no-repeat center/cover;
+    }
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.clock {
+    display: flex;
+}
+.clock div {
+    margin: 10px;
+}
+.clock span {
+    width: 200px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
